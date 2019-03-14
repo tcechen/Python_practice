@@ -1,0 +1,5 @@
+tuple=(1,2,3,4,5)
+list1=list(tuple)
+list1.append(8)
+print(list1)
+
