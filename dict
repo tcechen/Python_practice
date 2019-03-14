@@ -1,0 +1,31 @@
+dict={"01":50,"02":70,"03":80}
+dict["01"]=80
+print(dict["01"])
+print(dict)
+
+del dict["02"]
+print(dict)
+n=len(dict)
+print(n)
+n=dict.get("03")
+print(n)
+print(dict.items())
+print(dict.keys())
+
+print("\n")
+#exercise
+dict1={"Amy":85,"Joe":70,"Mary":50}
+dict1["John"]=65
+dict1["Alan"]=90
+listkey=list(dict1.keys())
+listvalue=list(dict1.values())
+
+for i in range(len(listkey)):
+	print("%s's score is %d" %(listkey[i],listvalue[i]))
+
+print("\n")
+
+#items()將key和value一起輸出
+listitem=dict1.items()
+for name,score in listitem:
+	print("%s's score is %d" %(name,score))

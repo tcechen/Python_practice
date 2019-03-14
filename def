@@ -1,0 +1,6 @@
+def ctof(c):
+	f=c*1.8+32
+	return f
+
+input1=float(input("Please enter temperature in C:"))
+print("The tem in F is %f" %(ctof(input1)))
