@@ -1,1 +1,1 @@
-# Python_practice
+# Some simple pratice with Python
